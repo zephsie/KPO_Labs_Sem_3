@@ -52,7 +52,7 @@ double getAverageMark(const vector<int> &marks) {
     for (int mark: marks) {
         sum += mark;
     }
-    return sum / marks.size();
+    return sum / (double) marks.size();
 }
 
 
