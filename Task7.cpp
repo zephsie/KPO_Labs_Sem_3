@@ -72,7 +72,6 @@ void sortStudents(const string &allStudentsFilename, const string &badStudentsFi
 
     string line;
     while (getline(file, line)) {
-        vector<string> tokens = splitString(line, ' ');
         Student dummy = parseStudent(line);
 
         if (getAverageMark(dummy.marks) < passGrade) {
