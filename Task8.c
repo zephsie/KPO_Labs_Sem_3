@@ -123,5 +123,6 @@ int getDepartmentAvgSalary(const char *filename, const char *department) {
 }
 
 int main() {
+    // implement
     return 0;
 }
