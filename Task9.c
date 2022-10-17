@@ -222,6 +222,8 @@ void clean() {
     while (head != NULL) {
         deleteAtBeginning();
     }
+
+    size = 0;
 }
 
 int main() {
